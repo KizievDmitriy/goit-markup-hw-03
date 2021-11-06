@@ -5,6 +5,7 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --accent-text-color: #ffffff;
+  --itm-logo-color: #afb1b8;
 }
 
 html {
@@ -232,4 +233,23 @@ p {
 .comand-text {
   font-size: 16px;
   line-height: 1.18;
+}
+/*------------------------- Block-clients-------------------------- */
+.client {
+  margin-bottom: 94px;
+}
+
+.client-link {
+  display: inline-block;
+  border: 1px solid;
+  color: var(--itm-logo-color);
+  padding: 16px 32px;
+  border-radius: 4px;
+}
+
+.client-link:hover,
+.client-link:focus {
+  color: var(--accent-color);
+}
+.client-item {
 }
