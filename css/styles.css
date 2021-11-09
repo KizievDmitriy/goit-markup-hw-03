@@ -25,6 +25,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .container {
   width: 1170px;
   padding-left: 15px;
@@ -32,6 +33,21 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section {
+  padding: 94px 0px;
+}
+.box-link {
+  display: flex;
+  align-items: center;
+}
+
 h1,
 h2,
 h3,
@@ -42,6 +58,8 @@ p {
 /* heder */
 
 .page-header {
+  display: flex;
+  border: 1px solid #ececec;
 }
 
 .logo {
@@ -63,17 +81,34 @@ p {
   list-style: none;
   font-style: normal;
   margin: 0px;
+  padding: 0px;
 }
 .link {
   display: inline-block;
 }
+.links-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.links-nav .item + .item {
+  margin-left: 50px;
+}
+
+.links-nav .item:last-child {
+  margin-right: 0px;
+}
 .links-nav .link {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 0;
 }
 
 .links-nav .link:hover,
@@ -81,6 +116,15 @@ p {
 .contacts-nav .mail-tel:hover,
 .links-nav .link:focus {
   color: var(--accent-color);
+}
+
+.contacts-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts-nav .item + .item {
+  margin-left: 50px;
 }
 
 .contacts-nav .mail-tel {
