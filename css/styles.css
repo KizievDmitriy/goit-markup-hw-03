@@ -249,7 +249,9 @@ img {
   text-align: center;
   padding-top: 200px;
 }
-
+.hero-container {
+  padding-bottom: 200px;
+}
 .hero-title {
   font-family: Roboto;
   font-weight: 900;
@@ -257,21 +259,24 @@ img {
   line-height: 1.36;
   color: var(--accent-text-color);
   margin-bottom: 30px;
-  width: 696px;
 }
 
 .hero-btn {
   color: var(--accent-text-color);
   background-color: var(--accent-color);
   padding: 10px 32px;
-  margin-bottom: 106px;
 }
 /* --------------------Block-Peculiarities---------------- */
-
+.section-pecularities {
+  padding-bottom: 0px;
+}
 .pecularities {
   display: flex;
 }
-
+.pecularity-item {
+  min-width: 270px;
+  min-height: 101px;
+}
 .pecularities-list {
   margin-right: 30px;
 }
@@ -279,6 +284,7 @@ img {
 .pecularities-title {
   text-transform: uppercase;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .list .pecularities-title {
