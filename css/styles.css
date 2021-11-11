@@ -43,8 +43,13 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p {
   margin: 0px;
+}
+img {
+  display: block;
 }
 /*--------------------------------------- heder --------------------------------------*/
 
@@ -252,6 +257,7 @@ p {
   line-height: 1.36;
   color: var(--accent-text-color);
   margin-bottom: 30px;
+  width: 696px;
 }
 
 .hero-btn {
