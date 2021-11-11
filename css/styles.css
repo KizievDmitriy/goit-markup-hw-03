@@ -250,10 +250,9 @@ img {
   background: #2f303a;
   text-align: center;
   padding-top: 200px;
-}
-.hero-container {
   padding-bottom: 200px;
 }
+
 .hero-title {
   font-family: Roboto;
   font-weight: 900;
@@ -261,12 +260,17 @@ img {
   line-height: 1.36;
   color: var(--accent-text-color);
   margin-bottom: 30px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-btn {
   color: var(--accent-text-color);
   background-color: var(--accent-color);
   padding: 10px 32px;
+  min-width: 200px;
+  min-height: 50px;
 }
 /* --------------------Block-Peculiarities---------------- */
 .section-pecularities {
