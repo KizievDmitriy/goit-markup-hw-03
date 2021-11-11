@@ -68,6 +68,7 @@ p {
 }
 
 .list {
+  display: flex;
   list-style: none;
   font-style: normal;
   margin: 0px;
@@ -125,7 +126,15 @@ p {
 }
 /*-------------------------------------- block-main --------------------------------------------------*/
 /*------------------------------ filter-button-section -------------------------------------------*/
+.nav-btn {
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.nav-btn .item-btn:not(:last-child) {
+  margin-right: 6px;
+}
 .btn {
+  padding: 6px 22px;
   display: inline-block;
   font-family: inherit;
   font-weight: 500;
@@ -149,13 +158,33 @@ p {
 }
 
 /* projects-menu */
+.project-list {
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 30px) / 3);
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+.project-item {
+  width: 370px;
+  border: 1px solid #eeeeee;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.project-list .project-item:nth-child(3n) {
+  margin-right: 0px;
+}
+.project-list .project-item:nth-child(-n + 3) {
+  margin-bottom: 0px;
+}
 .list .list-title {
+  margin: 20px 24px 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 
 .list .list-work {
+  padding: 0px 24px 20px;
   font-size: 16px;
   line-height: 1.87;
   color: var(--title-text-color);
