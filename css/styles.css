@@ -6,6 +6,7 @@
   --accent-color: #2196f3;
   --accent-text-color: #ffffff;
   --itm-logo-color: #afb1b8;
+  --item-card: 30px;
 }
 
 body {
@@ -165,23 +166,20 @@ img {
 
 /* projects-menu */
 .project-list {
+  display: flex;
   flex-wrap: wrap;
-  flex-basis: calc((100% - 60px) / 3);
-  margin-right: -30px;
-  margin-bottom: -30px;
+
+  margin-right: calc(-1 * var(--item-card));
+  margin-bottom: calc(-1 * var(--item-card));
 }
 .project-item {
   width: 370px;
   border: 1px solid #eeeeee;
-  margin-right: 30px;
-  margin-bottom: 30px;
+  flex-basis: calc((100% / 3) - var(--item-card));
+  margin-right: var(--item-card);
+  margin-bottom: var(--item-card);
 }
-.project-list .project-item:nth-child(3n) {
-  margin-right: 0px;
-}
-.project-list.project-item:nth-child(-n + 3) {
-  margin-bottom: 0px;
-}
+
 .title-conteiner {
   padding: 20px 24px;
 }
