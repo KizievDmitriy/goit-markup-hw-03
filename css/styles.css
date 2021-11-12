@@ -282,9 +282,9 @@ img {
 .pecularity-item {
   min-width: 270px;
   min-height: 101px;
+  margin-right: 30px;
 }
 .pecularities-list {
-  margin-right: 30px;
 }
 
 .pecularities-title {
@@ -302,6 +302,7 @@ img {
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 /* --------------------------Block-whate-we-do----------------- */
 .work-item {
