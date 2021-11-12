@@ -166,11 +166,10 @@ img {
   border-radius: 4px;
 }
 
-/* projects-menu */
+/*-------------------------------------- projects-menu ----------------------------*/
 .project-list {
   display: flex;
   flex-wrap: wrap;
-
   margin-right: calc(-1 * var(--item-card));
   margin-bottom: calc(-1 * var(--item-card));
 }
@@ -181,10 +180,17 @@ img {
   margin-right: var(--item-card);
   margin-bottom: var(--item-card);
 }
+/*--------------- card ---------------------*/
+.card {
+}
+
+.card-thumb {
+}
 
 .title-conteiner {
   padding: 20px 24px;
 }
+
 .list .list-title {
   margin-bottom: 4px;
   font-weight: 700;
