@@ -1,12 +1,12 @@
 /*------------------------------------- PORTFOLIO.HTML -----------------------------------*/
 
 :root {
-  --primary-text-color: #212121;
-  --title-text-color: #757575;
-  --accent-color: #2196f3;
-  --accent-text-color: #ffffff;
-  --itm-logo-color: #afb1b8;
-  --item-card: 30px;
+  -- primary-text-color: #212121;
+  -- title-text-color: #757575;
+  -- accent-color: #2196f3;
+  -- accent-text-color: #ffffff;
+  -- itm-logo-color: #afb1b8;
+  -- item-card: 30px;
 }
 
 body {
