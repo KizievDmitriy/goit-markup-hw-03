@@ -1,4 +1,4 @@
-/* PORTFOLIO.HTML */
+/*------------------------------------- PORTFOLIO.HTML -----------------------------------*/
 
 :root {
   --primary-text-color: #212121;
@@ -49,6 +49,7 @@ h6,
 p {
   margin: 0px;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -58,7 +59,7 @@ img {
 
 .page-header {
   display: flex;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -175,7 +176,7 @@ img {
 }
 .project-item {
   width: 370px;
-  border: 1px solid #eeeeee;
+
   flex-basis: calc((100% / 3) - var(--item-card));
   margin-right: var(--item-card);
   margin-bottom: var(--item-card);
@@ -189,6 +190,8 @@ img {
 
 .title-conteiner {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .list .list-title {
